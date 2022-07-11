@@ -71,19 +71,19 @@ for (let i = 0; i < numbersbutton.length; i++) {
     let current = document.querySelectorAll(".active");
 
     //loop through current element that has a active class
-    for (let i = 0; i < current.length; i++) {
+    for (let j = 0; j < current.length; j++) {
       //we get the current element that has a active class for remove it through the loop and add the active class to button that we clicked on it by the first loop (parent loop)
-      current[i].classList.remove("active");
+      current[j].classList.remove("active");
     }
     // here we add active class on button that we are clicked in
     this.classList.add("active"); // this refers to numbersbutton[i]
 
     //loop on ourworkitem
-    for (let i = 0; i < cardsitem.length; i++) {
-      cardsitem[i].classList.add("delete");
+    for (let b = 0; b < cardsitem.length; b++) {
+      cardsitem[b].classList.add("delete"); 
     }
  
-    cardsitem[i].classList.remove("delete");
+    cardsitem[i].classList.remove("delete"); 
  
   });
 }
