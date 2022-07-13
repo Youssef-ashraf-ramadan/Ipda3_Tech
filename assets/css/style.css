@@ -477,13 +477,12 @@ body {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  height: 80vh;
-  margin-top: -200px;
+ 
   margin-bottom: 200px;
 }
 
 .card-carousel .my-card {
-  height: 20rem;
+
   width: 20rem;
   position: relative;
   z-index: 1;
@@ -527,7 +526,7 @@ body {
 
 .details svg {
   cursor: pointer;
-  margin-bottom: 40px;
+
 }
 
 /*****************Information Page********************************/
@@ -614,9 +613,7 @@ body {
     height: auto;
   }
 
-  .details svg {
-    margin-bottom: 200px;
-  }
+ 
 
   .information h4::after {
     top: 0;

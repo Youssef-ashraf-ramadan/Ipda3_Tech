@@ -131,3 +131,13 @@ $('html body').keydown(function(e) {
   }
 });
 
+
+//click on next and prev buttons  
+$('.bi-arrow-right-square-fill').click(function() {
+
+  $('.active').prev().trigger('click');
+});
+$('.bi-arrow-left-square-fill').click(function() {
+
+  $('.active').next().trigger('click');
+});
